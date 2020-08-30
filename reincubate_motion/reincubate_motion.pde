@@ -17,7 +17,7 @@ float delta_p; //plate edge height
 double count;
 float t=0;
 double spd;
-double offset=0.0001;
+double offset=0.00005;
 
 void setup() {
   frameRate(30);
@@ -214,7 +214,7 @@ void draw() {
   popMatrix();
   
   //Theta area
-  fill(245,240,106,120);
+  fill(245,241,176,71);
   noStroke();
   beginShape();
   vertex(r2*cos(t), r2*sin(t), 0);
